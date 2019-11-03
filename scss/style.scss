@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'FrutigerBold';
+    src: url('../fonts/FrutigerLTStd-BlackCn.woff') format('woff'),
+    url('../fonts/FrutigerLTStd-BlackCn.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FrutigerBlack';
+    src: url('../fonts/FrutigerLTStd-BoldCn.woff') format('woff'),
+    url('../fonts/FrutigerLTStd-BoldCn.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GloriaHallelujah';
+    src: url('../fonts/gloriahallelujah-webfont.woff2') format('woff2'),
+    url('../fonts/gloriahallelujah-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.bg-orange {
+    background: #ffca00;
+    padding-bottom: 385px;
+}
+
+h2 {
+    font-family: 'FrutigerBlack', 'sans-serif';
+    font-size: 80px;
+    color: #005346;
+    margin-top: 36px;
+    line-height: 70px;
+}
+
+form.main-form {
+    margin-top: -250px;
+    position: relative;
+    padding-top: 100px;
+    &:before {
+        content: ' ';
+        width: 132px;
+        height: 82px;
+        display: block;
+        background: url('../img/arrow.png') no-repeat;
+        position: absolute;
+        top: 0;
+        left: 320px;
+    }
+    label {
+        font-family: 'GloriaHallelujah', 'sans-serif';
+        font-size: 36px;
+        transform: rotate(-22deg);
+        position: absolute;
+        left: 0;
+        top: 10px;
+    }
+    input#email {
+        font-family: 'FrutigerBlack', 'sans-serif';
+        font-size: 16px;
+        width: 542px;
+        height: 44px;
+        border: 1px solid #575756;
+        border-radius: 0;
+        margin: 0 auto;
+    }
+    button {
+        margin-top: 182px;
+        font-size: 32px;
+        text-transform: uppercase;
+        color: #fff;
+        background: #005346;
+        border-radius: 1.3rem;
+        padding: 5px 83px;
+        font-family: 'FrutigerBold', 'sans-serif';
+    }
+}
+
+.logo-form {
+    position: absolute;
+    bottom: 0;
+    right: 73px;
+}
